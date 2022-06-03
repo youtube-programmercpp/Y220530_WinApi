@@ -57,8 +57,8 @@ void SaveBitmapAsFile(HDC hMemoryDC)
 					}
 					else
 						fprintf(stderr, "fopen function failed.\n");
-					free(lpvBits);
 				}
+				free(lpvBits);
 			}
 			else
 				fprintf(stderr, "malloc function failed.\n");
